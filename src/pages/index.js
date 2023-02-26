@@ -1,4 +1,5 @@
 import MainLayout from "@/components/Layout/MainLayout";
+import UserInfo from "@/components/UserInfo";
 import Header from "../components/Header";
 import Navbar from "../components/Navbar";
 
@@ -10,6 +11,7 @@ export default function Home() {
       <MainLayout>
         <section className="min-h-screen">
           <Navbar />
+          <UserInfo />
         </section>
       </MainLayout>
     </>
