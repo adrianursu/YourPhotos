@@ -1,5 +1,6 @@
 import MainLayout from "@/components/Layout/MainLayout";
 import Header from "../components/Header";
+import Navbar from "../components/Navbar";
 
 export default function Home() {
   return (
@@ -7,9 +8,9 @@ export default function Home() {
       <Header />
 
       <MainLayout>
-        <h1 className="text-3xl font-bold underline text-red-500">
-          Hello World
-        </h1>
+        <section className="min-h-screen">
+          <Navbar />
+        </section>
       </MainLayout>
     </>
   );
