@@ -1,6 +1,6 @@
 const UserInfo = () => {
   return (
-    <div className="bg-gray-800 text-center p-6 rounded-xl">
+    <div className="bg-gray-800 text-center p-6 rounded-xl sticky top-0">
       <div className="text-5xl font-bold text-white pb-3">Adrian Ursu</div>
       <div className="text-xl text-white pb-3">www.adrian-ursu.com</div>
       <button
