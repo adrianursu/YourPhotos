@@ -7,14 +7,12 @@ import Grid from "@/components/Grid";
 
 export default function User({ user }) {
   const router = useRouter();
-
   // If the page is not yet generated, this will be displayed
   // initially until getServerSideProps() finishes running
   if (router.isFallback) {
     return <div>Loading...</div>;
   }
 
-  // return <UserInfo user={user} />;
   return (
     <>
       <Header />
