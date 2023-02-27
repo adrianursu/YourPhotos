@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import MainLayout from "@/components/Layout/MainLayout";
 import Navbar from "@/components/Navbar";
 import Grid from "@/components/Grid";
+import Footer from "@/components/Footer";
 
 export default function User({ user }) {
   const router = useRouter();
@@ -22,6 +23,7 @@ export default function User({ user }) {
           <Navbar />
           <UserInfo user={user} />
           <Grid />
+          <Footer />
         </section>
       </MainLayout>
     </>
